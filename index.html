@@ -71,7 +71,7 @@
 <style>
 :root{
   --ink:#0a0a0a;
-  --green:#c9ff3f;
+  --yellow:#FFFB01;
   --white:#ffffff;
 }
 *{
@@ -134,7 +134,7 @@ h1{
   justify-content:center;
   min-height:68px;
   padding:0 28px;
-  background:var(--green);
+  background:var(--yellow);
   color:var(--ink);
   border:2.5px solid var(--ink);
   font-size:16px;
@@ -152,7 +152,7 @@ h1{
   top:-17px;
   width:45px;
   height:25px;
-  background:var(--green);
+  background:var(--yellow);
   border:2.5px solid var(--ink);
   box-shadow: 9px -7px 0 var(--ink);
   border-bottom:0;
@@ -172,16 +172,12 @@ h1{
   border-radius:2px;
   box-shadow: 9px -7px 0 var(--ink);
 }
-.cta:hover::before,.cta:hover::after,.cta:focus-visible::before,.cta:focus-visible::after{
-  /* transform:translateY(-10px) scaleY(1);
-  opacity:0; */
-}
 .cta:active{
   --lift:2px;
   box-shadow:3px 3px 0 var(--ink);
 }
 .cta:focus-visible{
-  outline:4px solid rgba(201,255,63,.5);
+  outline:4px solid rgba(255,251,1,.5);
   outline-offset:6px;
 }
 .cta-wrap .note {
@@ -231,10 +227,6 @@ h1{
   font-size:15px;
   line-height:1;
 }
-:root{
-  --green:#c9ff3f;
-}
-
 .linkedin-link{
   position:fixed;
   right:50px;
@@ -253,7 +245,7 @@ h1{
 }
 
 .linkedin-link:hover svg path{
-  fill:var(--green);
+  fill:var(--yellow);
   stroke:#000;
 }
 @media(max-width:700px){
